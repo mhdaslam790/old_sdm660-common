@@ -918,7 +918,7 @@ service vendor.qti /vendor/bin/qti
     writepid /dev/cpuset/system-background/tasks
 
 service vendor.sensors /vendor/bin/sscrpcd sensorspd
-    class core
+    class early_hal
     user system
     group system wakelock
     capabilities BLOCK_SUSPEND
