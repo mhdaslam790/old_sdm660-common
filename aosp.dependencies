@@ -8,6 +8,10 @@
     "target_path": "packages/resources/devicesettings"
   },
   {
+    "repository": "android_packages_resources_MotoActions",
+    "target_path": "packages/resources/MotoActions"
+  },
+  {
     "repository": "android_external_bson",
     "target_path": "external/bson"
   },
