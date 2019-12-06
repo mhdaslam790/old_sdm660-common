@@ -49,8 +49,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.snd_card.open.retries=50 \
     vendor.fm.a2dp.conc.disabled=true \
     vendor.voice.path.for.pcm.voip=true \
-    vendor.audio.offload.min.duration.secs=60 \
-    audio.volume.headset.gain.depcal=true
+    vendor.audio.offload.min.duration.secs=60
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
