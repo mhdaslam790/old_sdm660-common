@@ -91,6 +91,10 @@ PRODUCT_PACKAGES += \
     libxml2 \
     Snap
 
+# AR
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/android.hardware.camera.ar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.ar.xml
+
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
