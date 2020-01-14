@@ -233,21 +233,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config.extra=none
 
-# VNDK
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.vndk.version=28
-
-# Voice assistant
+# WFD
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opa.eligible_device=true
-
-# VoLTE / VoWifi -Radio
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.dbg.ims_volte_enable=1 \
-    persist.dbg.volte_avail_ovr=1 \
-    persist.dbg.vt_avail_ovr=1 \
-    persist.dbg.wfc_avail_ovr=1 \
-    persist.radio.calls.on.ims=1
+    persist.hwc.enable_vds=1 \
+    persist.sys.wfd.virtual=0
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
